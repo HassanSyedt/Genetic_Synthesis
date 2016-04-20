@@ -8,8 +8,9 @@ object main {
   def main(args: Array[String]):Unit = {
     //println("Write a number\n")
     //val target = scala.io.StdIn.readInt()
+    val target = scala.io.StdIn.readInt()
 
-    val p = Population(.4, .4, 30, 30000)
+    val p = Population(.4, .4, 30, target)
     val x = p.population.size
 
 
